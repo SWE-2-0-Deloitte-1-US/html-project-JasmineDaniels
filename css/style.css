@@ -24,8 +24,8 @@
     display: inline-block;
 }
   
-.nav-links {
-    list-style: none;
+a {
+    text-decoration: none;
 }
   
 .nav-item a {
