@@ -1,0 +1,34 @@
+.flex-main {
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-container{
+    height: 20vh;
+    width: 20vw;
+    background-color: white;
+    margin: 1rem;
+    color: #fff;
+    border: solid black 1px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.image-fit {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tech-fit {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
