@@ -1,0 +1,25 @@
+.bio-content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: 2rem; */
+    margin-top: 4rem;
+}
+
+.bio-desc h2, 
+.bio-desc .resume {
+    text-align: center;
+}
+
+.bio-desc {
+    width: 30em;
+}
+
+
+
+.bio-desc {
+padding: 20px 20px 20px 30px;
+}
