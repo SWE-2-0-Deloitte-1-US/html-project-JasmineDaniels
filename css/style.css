@@ -4,26 +4,23 @@
     font-size: 20px
 }
 
-.navbar ul{
-    display:flex;
-    justify-content:space-between;
-    padding-right: 80px;
-}
-
 .navbar {
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
     width: 100vw;
     background-color: #59D9A1;
     padding-left: 30px;
     padding-right: 10px;
 }
-  
-.logo {
-    display: inline-block;
+ 
+.nav-links {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
 }
   
+
 a {
     text-decoration: none;
 }
@@ -38,11 +35,6 @@ a {
 .nav-item:hover {
     background-color: white;
 }
-
-.sidebar p:hover {
-    background-color: white;
-    color: #242457;
-}
   
 .nav-item:hover a {
     color: #59D9A1;
@@ -51,12 +43,6 @@ a {
 .logo img {
     width: 15%;
     vertical-align: middle;
-}
-
-.sidebar {
-    background-color: #242457;
-    color: white;
-    padding: 3rem;
 }
 
 footer img {
@@ -69,26 +55,6 @@ footer img {
     padding-right: 2.5rem;
 }
 
-.image-container{
-    /* height: 30vh;
-    width: 20vw; */
-    height: 12.5rem;
-    width: 12.5rem;
-    background-color: #505FF9;
-    margin: 2rem;
-    color: #fff;
-    border: solid black 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-fit {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-}
-
 footer {
     display: flex;
     justify-content: space-around;
@@ -98,7 +64,6 @@ footer {
     background-color: #59D9A1;
 }
 
-/* CODE YOUR FLEXBOXES HERE */
 .flex-main {
     display: flex;
 }
@@ -110,9 +75,5 @@ footer {
     justify-content: space-evenly;
 }
 
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+
 
