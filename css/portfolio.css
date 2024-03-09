@@ -10,7 +10,6 @@
 }
 
 .sidebar p:hover {
-    /* background-color: white; */
     color: var(--dark);
 }
 
@@ -33,7 +32,6 @@
     background-color: #F5F5F5;
     margin: 2rem;
     color: #fff;
-    /* border: solid black 1px; */
     border-radius: 3%;
     display: flex;
     justify-content: center;
@@ -49,8 +47,6 @@
 }
 
 .image-fit {
-    /* height: 18em;
-    width: 25em; */
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -63,7 +59,6 @@
     margin: 1rem;
     margin-left: 6rem;
     color: black;
-    /* border: solid black 1px; */
     border-radius: 10%;
     display: flex;
     text-align: center;
