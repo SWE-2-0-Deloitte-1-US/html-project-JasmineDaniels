@@ -45,8 +45,13 @@ a {
     vertical-align: middle;
 }
 
-footer img {
-    width: 3%;
+footer .footer-img {
+    width: 15%;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
 }
 
 .flex-main {

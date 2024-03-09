@@ -6,12 +6,19 @@
     /* max-width: 982px; */
 }
 
-
-
 .experience-desc {
     padding: 30px;
+    display: flex;
+    justify-content: center;
 }
 
+.experience-container {
+    width: 40em;
+}
+
+.experience-container p {
+    font-weight: bold;
+}
 
 .image-container{
     height: 20vh;
@@ -23,6 +30,12 @@
     display: flex;
     /* justify-content: center;
     align-items: center; */
+}
+
+@media screen and (min-width: 948px) {
+    .image-container {
+        width: 200px;    
+    }
 }
 
 .image-fit {

@@ -1,6 +1,7 @@
 .main-content {
     height: 100vh;
     margin: 3rem;
+    font-weight: bold;
 }
 
 .title {
