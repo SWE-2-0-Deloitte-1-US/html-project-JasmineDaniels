@@ -1,0 +1,74 @@
+/* GLOBAL STYLES */
+* {
+    font-family: sans-serif;
+    font-size: 20px
+}
+
+:root {
+    --light: #ffffff;
+    --dark: #000000;
+    --theme: #db0276;
+    --puff: #fa9dd9;
+}
+
+.navbar {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    padding-left: 30px;
+    padding-right: 10px;
+    background-color: var(--puff);
+}
+ 
+.nav-links {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    color: var(--light);
+}
+
+.nav-links a:hover {
+    color: var(--theme);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+footer .footer-img {
+    width: 15%;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-main {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding-right: 2.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--puff);
+}
+
+.flex-main {
+    display: flex;
+}
+
+
+
+
+
