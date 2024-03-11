@@ -69,6 +69,16 @@ footer {
 }
 
 
+.check-out-btn {
+    color: var(--light);
+    background-color: var(--theme);
+    border-radius: 10px;
+    border-color: var(--puff);
+}
 
+.check-out-btn:hover {
+    background-color: var(--puff);
+    color: var(--theme);
+}
 
 
