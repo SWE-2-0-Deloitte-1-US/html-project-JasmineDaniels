@@ -25,3 +25,8 @@
         width: 1000px;    
     }
 }
+
+#quote {
+    color: #db0276;
+    font-size: larger;
+}

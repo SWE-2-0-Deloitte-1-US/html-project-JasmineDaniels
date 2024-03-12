@@ -15,7 +15,6 @@ let quotes = [
 
 let randomQuote = () => {
     let random = quotes[(Math.floor(Math.random() * quotes.length))];
-    console.log(random);
     quoteEl.innerHTML = `"${random.quote}"`;
     quoteAuthorEl.innerHTML = `- ${random.author}`; 
 }
