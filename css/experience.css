@@ -1,0 +1,53 @@
+.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.experience-desc {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.experience-container {
+    width: 40em;
+}
+
+.experience-container p {
+    font-weight: bold;
+}
+
+.image-container{
+    height: 20vh;
+    width: 20vw;
+    background-color: white;
+    margin: 1rem;
+    color: #fff;
+    border: solid black 1px;
+    display: flex;
+}
+
+@media screen and (min-width: 948px) {
+    .image-container {
+        width: 200px;    
+    }
+}
+
+.image-fit {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tech-fit {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
+}

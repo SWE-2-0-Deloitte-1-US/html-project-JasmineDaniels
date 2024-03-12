@@ -1,0 +1,57 @@
+.bio-content {
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+hr {
+    width: 90%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bio-desc h2, 
+.bio-desc .resume {
+    text-align: center;
+}
+
+.bio-desc {
+    width: 30em;
+    font-weight: bold;
+}
+
+#disc {
+    font-size: small}
+
+.bio-desc {
+padding: 20px 20px 20px 30px;
+}
+
+.main-content {
+    /* height: 100vh; */
+    width: 100vw;
+    /* margin: 3rem; */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 948px) {
+    .main-content {
+        width: 1000px;    
+    }
+}
